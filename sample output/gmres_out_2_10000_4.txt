@@ -1,0 +1,14 @@
+
+Apr 13 2022,23:08:00
+
+Restarted GMRES Parameters 
+Maximum Iterations : 100
+Tolerance :1e-10
+Restart Iteration at 100
+Iter[1] : 9999.0008
+Iter[2] : 1.8319887
+Iter[3] : 0.00057390405
+Iter[4] : 2.3725716e-07
+Iter[5] : 1.1073253e-10
+Reached Solution before Max_Iterations
+Residual : 1.4019323e-11

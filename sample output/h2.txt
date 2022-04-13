@@ -1,0 +1,966 @@
+Cheb Points
+HMATRIX
+Started
+Tol - 1e-12
+Child Updated for Level 0
+Child Updated for Level 1
+Child Updated for Level 2
+Tree Created and points assigned to Leaf
+Points distributed till Root
+
+Charges Created : 10000
+RHS set
+Tree Formed
+Initialising : 
+
+Initialized .... 
+
+H-matrix Initialized...
+RHS
+Restarted GMRES Parameters 
+Maximum Iterations : 100
+Tolerance : 1e-10
+Restart Iteration at 100
+Iter[1] : 9999
+Iter[2] : 1.832
+Iter[3] : 0.0005739
+Iter[4] : 2.373e-07
+Iter[5] : 1.107e-10
+Reached Solution before Max_Iterations
+Err
+Level :0 Self ID : 0
+Neighbour incl self : 
+DALR : 
+
+
+Charge Index : [0,9999]
+X : [-1,1]
+Y : [-1,1]
+N Particles : 10000
+
+I am Not a Leaf
+Level :1 Self ID : 0
+Neighbour incl self : 1 2 3 
+DALR : 
+
+
+Charge Index : [0,2499]
+X : [-1,0]
+Y : [-1,0]
+N Particles : 2500
+
+I am Not a Leaf
+Level :1 Self ID : 1
+Neighbour incl self : 0 2 3 
+DALR : 
+
+
+Charge Index : [2500,4999]
+X : [0,1]
+Y : [-1,0]
+N Particles : 2500
+
+I am Not a Leaf
+Level :1 Self ID : 2
+Neighbour incl self : 0 1 3 
+DALR : 
+
+
+Charge Index : [5000,7499]
+X : [0,1]
+Y : [0,1]
+N Particles : 2500
+
+I am Not a Leaf
+Level :1 Self ID : 3
+Neighbour incl self : 0 1 2 
+DALR : 
+
+
+Charge Index : [7500,9999]
+X : [-1,0]
+Y : [0,1]
+N Particles : 2500
+
+I am Not a Leaf
+Level :2 Self ID : 0
+Neighbour incl self : 1 2 3 
+DALR : 4 5 6 7 8 9 10 11 12 13 14 15 
+
+34 22 21 28 22 18 16 17 34 31 21 22 
+Charge Index : [0,1088]
+X : [-1,-0.5]
+Y : [-1,-0.5]
+N Particles : 1089
+
+I am Not a Leaf
+Level :2 Self ID : 1
+Neighbour incl self : 0 2 3 4 7 
+DALR : 5 6 8 9 10 11 12 13 14 15 
+
+32 29 27 23 18 18 30 34 21 19 
+Charge Index : [1089,1649]
+X : [-0.5,0]
+Y : [-1,-0.5]
+N Particles : 561
+
+I am Not a Leaf
+Level :2 Self ID : 2
+Neighbour incl self : 0 1 3 4 7 8 12 13 
+DALR : 5 6 9 10 11 14 15 
+
+30 35 29 23 29 34 29 
+Charge Index : [1650,1938]
+X : [-0.5,0]
+Y : [-0.5,0]
+N Particles : 289
+
+I am Not a Leaf
+Level :2 Self ID : 3
+Neighbour incl self : 0 1 2 12 13 
+DALR : 4 5 6 7 8 9 10 11 14 15 
+
+28 19 20 33 26 19 17 23 29 33 
+Charge Index : [1939,2499]
+X : [-1,-0.5]
+Y : [-0.5,0]
+N Particles : 561
+
+I am Not a Leaf
+Level :2 Self ID : 4
+Neighbour incl self : 5 6 7 1 2 
+DALR : 0 3 8 9 10 11 12 13 14 15 
+
+34 30 33 27 20 22 23 30 18 18 
+Charge Index : [2500,3060]
+X : [0,0.5]
+Y : [-1,-0.5]
+N Particles : 561
+
+I am Not a Leaf
+Level :2 Self ID : 5
+Neighbour incl self : 4 6 7 
+DALR : 0 1 2 3 8 9 10 11 12 13 14 15 
+
+20 35 31 20 29 32 22 21 17 23 18 17 
+Charge Index : [3061,4149]
+X : [0.5,1]
+Y : [-1,-0.5]
+N Particles : 1089
+
+I am Not a Leaf
+Level :2 Self ID : 6
+Neighbour incl self : 4 5 7 8 9 
+DALR : 0 1 2 3 10 11 12 13 14 15 
+
+20 27 34 20 35 28 20 30 23 18 
+Charge Index : [4150,4710]
+X : [0.5,1]
+Y : [-0.5,0]
+N Particles : 561
+
+I am Not a Leaf
+Level :2 Self ID : 7
+Neighbour incl self : 4 5 6 1 2 8 9 13 
+DALR : 0 3 10 11 12 14 15 
+
+29 34 30 34 30 29 23 
+Charge Index : [4711,4999]
+X : [0,0.5]
+Y : [-0.5,0]
+N Particles : 289
+
+I am Not a Leaf
+Level :2 Self ID : 8
+Neighbour incl self : 9 10 11 2 6 7 13 14 
+DALR : 0 1 3 4 5 12 15 
+
+24 29 29 34 29 35 29 
+Charge Index : [5000,5288]
+X : [0,0.5]
+Y : [0,0.5]
+N Particles : 289
+
+I am Not a Leaf
+Level :2 Self ID : 9
+Neighbour incl self : 8 10 11 6 7 
+DALR : 0 1 2 3 4 5 12 13 14 15 
+
+18 23 29 21 30 35 23 35 30 19 
+Charge Index : [5289,5849]
+X : [0.5,1]
+Y : [0,0.5]
+N Particles : 561
+
+I am Not a Leaf
+Level :2 Self ID : 10
+Neighbour incl self : 8 9 11 
+DALR : 0 1 2 3 4 5 6 7 12 13 14 15 
+
+16 18 23 18 21 22 32 29 21 28 33 22 
+Charge Index : [5850,6938]
+X : [0.5,1]
+Y : [0.5,1]
+N Particles : 1089
+
+I am Not a Leaf
+Level :2 Self ID : 11
+Neighbour incl self : 8 9 10 13 14 
+DALR : 0 1 2 3 4 5 6 7 12 15 
+
+18 20 29 23 23 19 29 33 29 35 
+Charge Index : [6939,7499]
+X : [0,0.5]
+Y : [0.5,1]
+N Particles : 561
+
+I am Not a Leaf
+Level :2 Self ID : 12
+Neighbour incl self : 13 14 15 2 3 
+DALR : 0 1 4 5 6 7 8 9 10 11 
+
+34 30 23 18 19 30 34 22 20 29 
+Charge Index : [7500,8060]
+X : [-1,-0.5]
+Y : [0,0.5]
+N Particles : 561
+
+I am Not a Leaf
+Level :2 Self ID : 13
+Neighbour incl self : 12 14 15 2 3 7 8 11 
+DALR : 0 1 4 5 6 9 10 
+
+30 35 30 23 28 35 28 
+Charge Index : [8061,8349]
+X : [-0.5,0]
+Y : [0,0.5]
+N Particles : 289
+
+I am Not a Leaf
+Level :2 Self ID : 14
+Neighbour incl self : 12 13 15 8 11 
+DALR : 0 1 2 3 4 5 6 7 9 10 
+
+20 21 33 29 20 18 23 30 28 35 
+Charge Index : [8350,8910]
+X : [-0.5,0]
+Y : [0.5,1]
+N Particles : 561
+
+I am Not a Leaf
+Level :2 Self ID : 15
+Neighbour incl self : 12 13 14 
+DALR : 0 1 2 3 4 5 6 7 8 9 10 11 
+
+22 21 30 34 18 17 17 24 29 19 22 31 
+Charge Index : [8911,9999]
+X : [-1,-0.5]
+Y : [0.5,1]
+N Particles : 1089
+
+I am Not a Leaf
+Level :3 Self ID : 0
+Neighbour incl self : 1 2 3 
+DALR : 4 5 6 7 8 9 10 11 12 13 14 15 
+
+35 23 19 30 24 20 16 20 38 31 20 23 
+Charge Index : [0,528]
+X : [-1,-0.75]
+Y : [-1,-0.75]
+N Particles : 529
+
+I am Leaf
+Level :3 Self ID : 1
+Neighbour incl self : 0 2 3 4 7 
+DALR : 5 6 8 9 10 11 12 13 14 15 
+
+33 28 31 24 17 20 30 33 21 22 
+Charge Index : [529,758]
+X : [-0.75,-0.5]
+Y : [-1,-0.75]
+N Particles : 230
+
+I am Leaf
+Level :3 Self ID : 2
+Neighbour incl self : 0 1 3 4 7 8 12 13 
+DALR : 5 6 9 10 11 14 15 
+
+27 32 27 23 27 32 30 
+Charge Index : [759,858]
+X : [-0.75,-0.5]
+Y : [-0.75,-0.5]
+N Particles : 100
+
+I am Leaf
+Level :3 Self ID : 3
+Neighbour incl self : 0 1 2 12 13 
+DALR : 4 5 6 7 8 9 10 11 14 15 
+
+30 22 21 34 30 21 17 23 28 33 
+Charge Index : [859,1088]
+X : [-1,-0.75]
+Y : [-0.75,-0.5]
+N Particles : 230
+
+I am Leaf
+Level :3 Self ID : 4
+Neighbour incl self : 5 6 7 1 2 
+DALR : 0 3 8 9 10 11 12 13 14 15 16 17 18 19 28 29 30 31 
+
+35 30 35 28 20 23 24 31 21 18 33 23 21 29 23 18 17 17 
+Charge Index : [1089,1295]
+X : [-0.5,-0.25]
+Y : [-1,-0.75]
+N Particles : 207
+
+I am Leaf
+Level :3 Self ID : 5
+Neighbour incl self : 4 6 7 16 19 
+DALR : 0 1 2 3 8 9 10 11 12 13 14 15 17 18 28 29 30 31 
+
+21 34 28 21 31 31 22 21 18 22 18 17 35 29 29 23 18 20 
+Charge Index : [1296,1479]
+X : [-0.25,0]
+Y : [-1,-0.75]
+N Particles : 184
+
+I am Leaf
+Level :3 Self ID : 6
+Neighbour incl self : 4 5 7 8 9 16 19 28 
+DALR : 0 1 2 3 10 11 12 13 14 15 17 18 29 30 31 
+
+21 28 31 22 31 28 19 28 23 18 28 33 27 23 27 
+Charge Index : [1480,1559]
+X : [-0.25,0]
+Y : [-0.75,-0.5]
+N Particles : 80
+
+I am Leaf
+Level :3 Self ID : 7
+Neighbour incl self : 4 5 6 1 2 8 9 13 
+DALR : 0 3 10 11 12 14 15 16 17 18 19 28 29 30 31 
+
+30 33 27 31 30 27 23 28 21 21 32 28 20 18 23 
+Charge Index : [1560,1649]
+X : [-0.5,-0.25]
+Y : [-0.75,-0.5]
+N Particles : 90
+
+I am Leaf
+Level :3 Self ID : 8
+Neighbour incl self : 9 10 11 2 6 7 13 14 
+DALR : 0 1 3 4 5 12 15 16 17 18 19 28 29 30 31 32 33 34 35 48 49 50 51 52 53 54 55 
+
+23 31 30 35 30 35 31 24 19 22 29 32 23 21 27 24 19 17 18 24 30 22 20 32 27 20 22 
+Charge Index : [1650,1730]
+X : [-0.5,-0.25]
+Y : [-0.5,-0.25]
+N Particles : 81
+
+I am Leaf
+Level :3 Self ID : 9
+Neighbour incl self : 8 10 11 6 7 19 28 31 
+DALR : 0 1 2 3 4 5 12 13 14 15 16 17 18 29 30 32 33 34 35 48 49 50 51 52 53 54 55 
+
+17 24 29 21 31 33 22 33 27 20 29 24 28 34 27 28 22 18 21 18 22 18 17 27 32 22 20 
+Charge Index : [1731,1802]
+X : [-0.25,0]
+Y : [-0.5,-0.25]
+N Particles : 72
+
+I am Leaf
+Level :3 Self ID : 10
+Neighbour incl self : 8 9 11 28 31 32 52 53 
+DALR : 0 1 2 3 4 5 6 7 12 13 14 15 16 17 18 19 29 30 33 34 35 48 49 50 51 54 55 
+
+17 18 22 18 21 22 32 28 21 28 32 22 21 17 23 27 29 32 26 23 28 22 27 23 18 31 29 
+Charge Index : [1803,1866]
+X : [-0.25,0]
+Y : [-0.25,0]
+N Particles : 64
+
+I am Leaf
+Level :3 Self ID : 11
+Neighbour incl self : 8 9 10 13 14 49 52 53 
+DALR : 0 1 2 3 4 5 6 7 12 15 16 17 18 19 28 29 30 31 32 33 34 35 48 50 51 54 55 
+
+17 21 28 23 23 20 27 30 29 33 18 17 18 22 27 21 22 32 29 20 18 22 29 28 24 27 34 
+Charge Index : [1867,1938]
+X : [-0.5,-0.25]
+Y : [-0.25,0]
+N Particles : 72
+
+I am Leaf
+Level :3 Self ID : 12
+Neighbour incl self : 13 14 15 2 3 
+DALR : 0 1 4 5 6 7 8 9 10 11 48 49 50 51 52 53 54 55 
+
+35 30 24 18 21 31 35 23 21 30 33 29 21 23 24 17 16 18 
+Charge Index : [1939,2145]
+X : [-1,-0.75]
+Y : [-0.5,-0.25]
+N Particles : 207
+
+I am Leaf
+Level :3 Self ID : 13
+Neighbour incl self : 12 14 15 2 3 7 8 11 
+DALR : 0 1 4 5 6 9 10 48 49 50 51 52 53 54 55 
+
+30 33 30 24 28 32 28 30 32 21 21 29 23 18 21 
+Charge Index : [2146,2235]
+X : [-0.75,-0.5]
+Y : [-0.5,-0.25]
+N Particles : 90
+
+I am Leaf
+Level :3 Self ID : 14
+Neighbour incl self : 12 13 15 8 11 48 49 52 
+DALR : 0 1 2 3 4 5 6 7 9 10 50 51 53 54 55 
+
+22 22 31 28 21 18 22 28 28 31 33 28 26 23 27 
+Charge Index : [2236,2315]
+X : [-0.75,-0.5]
+Y : [-0.25,0]
+N Particles : 80
+
+I am Leaf
+Level :3 Self ID : 15
+Neighbour incl self : 12 13 14 48 49 
+DALR : 0 1 2 3 4 5 6 7 8 9 10 11 50 51 52 53 54 55 
+
+22 22 28 32 18 17 18 25 31 20 21 31 30 34 29 21 18 24 
+Charge Index : [2316,2499]
+X : [-1,-0.75]
+Y : [-0.25,0]
+N Particles : 184
+
+I am Leaf
+Level :3 Self ID : 16
+Neighbour incl self : 17 18 19 5 6 
+DALR : 20 21 22 23 24 25 26 27 28 29 30 31 4 7 8 9 10 11 
+
+33 22 21 29 24 19 17 17 33 31 21 23 35 27 24 29 21 18 
+Charge Index : [2500,2683]
+X : [0,0.25]
+Y : [-1,-0.75]
+N Particles : 184
+
+I am Leaf
+Level :3 Self ID : 17
+Neighbour incl self : 16 18 19 20 23 
+DALR : 21 22 24 25 26 27 28 29 30 31 4 5 6 7 8 9 10 11 
+
+36 31 30 25 18 20 30 35 23 21 22 35 29 22 19 22 18 17 
+Charge Index : [2684,2890]
+X : [0.25,0.5]
+Y : [-1,-0.75]
+N Particles : 207
+
+I am Leaf
+Level :3 Self ID : 18
+Neighbour incl self : 16 17 19 20 23 24 28 29 
+DALR : 21 22 25 26 27 30 31 4 5 6 7 8 9 10 11 
+
+31 33 31 23 29 32 28 21 31 32 21 21 28 23 18 
+Charge Index : [2891,2980]
+X : [0.25,0.5]
+Y : [-0.75,-0.5]
+N Particles : 90
+
+I am Leaf
+Level :3 Self ID : 19
+Neighbour incl self : 16 17 18 28 29 5 6 9 
+DALR : 20 21 22 23 24 25 26 27 30 31 4 7 8 10 11 
+
+27 22 22 30 28 20 18 23 28 31 28 31 28 28 22 
+Charge Index : [2981,3060]
+X : [0,0.25]
+Y : [-0.75,-0.5]
+N Particles : 80
+
+I am Leaf
+Level :3 Self ID : 20
+Neighbour incl self : 21 22 23 17 18 
+DALR : 16 19 24 25 26 27 28 29 30 31 
+
+34 28 32 31 22 21 23 31 20 18 
+Charge Index : [3061,3290]
+X : [0.5,0.75]
+Y : [-1,-0.75]
+N Particles : 230
+
+I am Leaf
+Level :3 Self ID : 21
+Neighbour incl self : 20 22 23 
+DALR : 16 17 18 19 24 25 26 27 28 29 30 31 
+
+22 35 30 21 28 35 23 20 18 23 19 17 
+Charge Index : [3291,3819]
+X : [0.75,1]
+Y : [-1,-0.75]
+N Particles : 529
+
+I am Leaf
+Level :3 Self ID : 22
+Neighbour incl self : 20 21 23 24 25 
+DALR : 16 17 18 19 26 27 28 29 30 31 
+
+21 32 33 20 34 29 21 30 23 18 
+Charge Index : [3820,4049]
+X : [0.75,1]
+Y : [-0.75,-0.5]
+N Particles : 230
+
+I am Leaf
+Level :3 Self ID : 23
+Neighbour incl self : 20 21 22 17 18 24 25 29 
+DALR : 16 19 26 27 28 30 31 
+
+26 32 28 31 27 28 23 
+Charge Index : [4050,4149]
+X : [0.5,0.75]
+Y : [-0.75,-0.5]
+N Particles : 100
+
+I am Leaf
+Level :3 Self ID : 24
+Neighbour incl self : 25 26 27 18 22 23 29 30 
+DALR : 16 17 19 20 21 28 31 32 33 34 35 36 37 38 39 
+
+23 30 27 33 30 31 28 22 29 22 18 33 29 21 22 
+Charge Index : [4150,4239]
+X : [0.5,0.75]
+Y : [-0.5,-0.25]
+N Particles : 90
+
+I am Leaf
+Level :3 Self ID : 25
+Neighbour incl self : 24 26 27 22 23 
+DALR : 16 17 18 19 20 21 28 29 30 31 32 33 34 35 36 37 38 39 
+
+18 24 30 20 28 34 22 36 29 21 18 24 19 17 29 35 22 20 
+Charge Index : [4240,4446]
+X : [0.75,1]
+Y : [-0.5,-0.25]
+N Particles : 207
+
+I am Leaf
+Level :3 Self ID : 26
+Neighbour incl self : 24 25 27 36 37 
+DALR : 16 17 18 19 20 21 22 23 28 29 30 31 32 33 34 35 38 39 
+
+15 18 23 19 21 22 33 27 21 29 31 23 20 27 21 18 33 30 
+Charge Index : [4447,4630]
+X : [0.75,1]
+Y : [-0.25,0]
+N Particles : 184
+
+I am Leaf
+Level :3 Self ID : 27
+Neighbour incl self : 24 25 26 29 30 33 36 37 
+DALR : 16 17 18 19 20 21 22 23 28 31 32 34 35 38 39 
+
+17 21 27 22 21 21 27 31 27 33 28 29 23 29 32 
+Charge Index : [4631,4710]
+X : [0.5,0.75]
+Y : [-0.25,0]
+N Particles : 80
+
+I am Leaf
+Level :3 Self ID : 28
+Neighbour incl self : 29 30 31 18 19 6 9 10 
+DALR : 16 17 20 21 22 23 24 25 26 27 4 5 7 8 11 32 33 34 35 36 37 38 39 52 53 54 55 
+
+34 31 24 18 20 27 31 22 20 29 24 29 30 33 29 32 27 22 22 23 18 17 17 23 27 21 17 
+Charge Index : [4711,4782]
+X : [0,0.25]
+Y : [-0.5,-0.25]
+N Particles : 72
+
+I am Leaf
+Level :3 Self ID : 29
+Neighbour incl self : 28 30 31 18 19 23 24 27 
+DALR : 16 17 20 21 22 25 26 4 5 6 7 8 9 10 11 32 33 34 35 36 37 38 39 52 53 54 55 
+
+28 33 30 24 30 34 30 18 25 29 21 23 31 30 19 29 34 22 22 27 24 18 21 18 22 18 17 
+Charge Index : [4783,4863]
+X : [0.25,0.5]
+Y : [-0.5,-0.25]
+N Particles : 81
+
+I am Leaf
+Level :3 Self ID : 30
+Neighbour incl self : 28 29 31 24 27 32 33 36 
+DALR : 16 17 18 19 20 21 22 23 25 26 4 5 6 7 8 9 10 11 34 35 37 38 39 52 53 54 55 
+
+22 22 33 25 21 18 24 28 32 31 16 18 23 18 21 29 31 21 32 28 30 23 29 21 29 23 18 
+Charge Index : [4864,4935]
+X : [0.25,0.5]
+Y : [-0.25,0]
+N Particles : 72
+
+I am Leaf
+Level :3 Self ID : 31
+Neighbour incl self : 28 29 30 9 10 32 33 53 
+DALR : 16 17 18 19 20 21 22 23 24 25 26 27 4 5 6 7 8 11 34 35 36 37 38 39 52 54 55 
+
+21 21 28 32 18 17 19 23 27 22 22 33 18 20 27 22 29 32 29 32 27 21 18 23 28 28 24 
+Charge Index : [4936,4999]
+X : [0,0.25]
+Y : [-0.25,0]
+N Particles : 64
+
+I am Leaf
+Level :3 Self ID : 32
+Neighbour incl self : 33 34 35 10 30 31 53 54 
+DALR : 36 37 38 39 40 41 42 43 44 45 46 47 8 9 11 24 25 26 27 28 29 52 55 56 57 58 59 
+
+32 21 21 28 23 18 17 18 31 28 21 22 23 29 26 23 19 21 28 31 28 32 29 23 27 22 19 
+Charge Index : [5000,5063]
+X : [0,0.25]
+Y : [0,0.25]
+N Particles : 64
+
+I am Leaf
+Level :3 Self ID : 33
+Neighbour incl self : 32 34 35 36 39 27 30 31 
+DALR : 37 38 40 41 42 43 44 45 46 47 8 9 10 11 24 25 26 28 29 52 53 54 55 56 57 58 59 
+
+34 29 28 24 19 20 28 32 22 21 18 22 27 20 27 22 30 27 31 22 32 28 22 17 23 18 17 
+Charge Index : [5064,5135]
+X : [0.25,0.5]
+Y : [0,0.25]
+N Particles : 72
+
+I am Leaf
+Level :3 Self ID : 34
+Neighbour incl self : 32 33 35 36 39 40 44 45 
+DALR : 37 38 41 42 43 46 47 8 9 10 11 24 25 26 27 28 29 30 31 52 53 54 55 56 57 58 59 
+
+30 34 32 24 31 34 29 17 18 23 18 21 18 23 28 22 22 32 29 22 28 32 22 21 29 23 19 
+Charge Index : [5136,5216]
+X : [0.25,0.5]
+Y : [0.25,0.5]
+N Particles : 81
+
+I am Leaf
+Level :3 Self ID : 35
+Neighbour incl self : 32 33 34 44 45 53 54 57 
+DALR : 36 37 38 39 40 41 42 43 46 47 8 9 10 11 24 25 26 27 28 29 30 31 52 55 56 58 59 
+
+28 21 22 31 28 21 19 24 29 32 18 20 27 22 17 17 18 23 24 21 28 33 26 32 28 29 23 
+Charge Index : [5217,5288]
+X : [0,0.25]
+Y : [0.25,0.5]
+N Particles : 72
+
+I am Leaf
+Level :3 Self ID : 36
+Neighbour incl self : 37 38 39 33 34 26 27 30 
+DALR : 32 35 40 41 42 43 44 45 46 47 24 25 28 29 31 
+
+31 27 31 28 20 21 22 29 21 18 33 30 24 29 26 
+Charge Index : [5289,5368]
+X : [0.5,0.75]
+Y : [0,0.25]
+N Particles : 80
+
+I am Leaf
+Level :3 Self ID : 37
+Neighbour incl self : 36 38 39 26 27 
+DALR : 32 33 34 35 40 41 42 43 44 45 46 47 24 25 28 29 30 31 
+
+22 31 31 19 28 32 22 20 18 22 20 16 29 33 19 23 29 22 
+Charge Index : [5369,5552]
+X : [0.75,1]
+Y : [0,0.25]
+N Particles : 184
+
+I am Leaf
+Level :3 Self ID : 38
+Neighbour incl self : 36 37 39 40 41 
+DALR : 32 33 34 35 42 43 44 45 46 47 24 25 26 27 28 29 30 31 
+
+18 29 34 20 37 28 21 31 25 19 21 22 35 29 17 18 23 18 
+Charge Index : [5553,5759]
+X : [0.75,1]
+Y : [0.25,0.5]
+N Particles : 207
+
+I am Leaf
+Level :3 Self ID : 39
+Neighbour incl self : 36 37 38 33 34 40 41 45 
+DALR : 32 35 42 43 44 46 47 24 25 26 27 28 29 30 31 
+
+29 31 32 34 27 29 22 22 21 29 34 17 21 30 23 
+Charge Index : [5760,5849]
+X : [0.5,0.75]
+Y : [0.25,0.5]
+N Particles : 90
+
+I am Leaf
+Level :3 Self ID : 40
+Neighbour incl self : 41 42 43 34 38 39 45 46 
+DALR : 32 33 35 36 37 44 47 
+
+22 27 27 32 29 32 27 
+Charge Index : [5850,5949]
+X : [0.5,0.75]
+Y : [0.5,0.75]
+N Particles : 100
+
+I am Leaf
+Level :3 Self ID : 41
+Neighbour incl self : 40 42 43 38 39 
+DALR : 32 33 34 35 36 37 44 45 46 47 
+
+19 23 30 20 28 33 21 32 29 20 
+Charge Index : [5950,6179]
+X : [0.75,1]
+Y : [0.5,0.75]
+N Particles : 230
+
+I am Leaf
+Level :3 Self ID : 42
+Neighbour incl self : 40 41 43 
+DALR : 32 33 34 35 36 37 38 39 44 45 46 47 
+
+17 18 24 19 21 23 36 29 21 29 36 22 
+Charge Index : [6180,6708]
+X : [0.75,1]
+Y : [0.75,1]
+N Particles : 529
+
+I am Leaf
+Level :3 Self ID : 43
+Neighbour incl self : 40 41 42 45 46 
+DALR : 32 33 34 35 36 37 38 39 44 47 
+
+19 21 30 23 21 20 29 34 28 33 
+Charge Index : [6709,6938]
+X : [0.5,0.75]
+Y : [0.75,1]
+N Particles : 230
+
+I am Leaf
+Level :3 Self ID : 44
+Neighbour incl self : 45 46 47 34 35 54 57 58 
+DALR : 32 33 36 37 38 39 40 41 42 43 52 53 55 56 59 
+
+32 27 22 18 21 28 33 21 21 29 23 27 28 31 30 
+Charge Index : [6939,7018]
+X : [0,0.25]
+Y : [0.5,0.75]
+N Particles : 80
+
+I am Leaf
+Level :3 Self ID : 45
+Neighbour incl self : 44 46 47 34 35 39 40 43 
+DALR : 32 33 36 37 38 41 42 52 53 54 55 56 57 58 59 
+
+29 32 27 23 33 34 32 19 23 27 20 22 34 29 22 
+Charge Index : [7019,7108]
+X : [0.25,0.5]
+Y : [0.5,0.75]
+N Particles : 90
+
+I am Leaf
+Level :3 Self ID : 46
+Neighbour incl self : 44 45 47 40 43 
+DALR : 32 33 34 35 36 37 38 39 41 42 52 53 54 55 56 57 58 59 
+
+18 21 34 28 21 19 24 31 29 34 17 18 24 18 20 29 32 22 
+Charge Index : [7109,7315]
+X : [0.25,0.5]
+Y : [0.75,1]
+N Particles : 207
+
+I am Leaf
+Level :3 Self ID : 47
+Neighbour incl self : 44 45 46 57 58 
+DALR : 32 33 34 35 36 37 38 39 40 41 42 43 52 53 54 55 56 59 
+
+22 22 31 31 18 17 19 22 27 20 21 33 18 21 30 24 29 33 
+Charge Index : [7316,7499]
+X : [0,0.25]
+Y : [0.75,1]
+N Particles : 184
+
+I am Leaf
+Level :3 Self ID : 48
+Neighbour incl self : 49 50 51 14 15 
+DALR : 52 53 54 55 56 57 58 59 60 61 62 63 8 9 10 11 12 13 
+
+32 22 20 27 23 17 17 19 32 28 22 23 24 18 22 27 33 28 
+Charge Index : [7500,7683]
+X : [-1,-0.75]
+Y : [0,0.25]
+N Particles : 184
+
+I am Leaf
+Level :3 Self ID : 49
+Neighbour incl self : 48 50 51 52 55 11 14 15 
+DALR : 53 54 56 57 58 59 60 61 62 63 8 9 10 12 13 
+
+31 27 28 23 18 20 28 32 21 21 28 24 28 28 31 
+Charge Index : [7684,7763]
+X : [-0.75,-0.5]
+Y : [0,0.25]
+N Particles : 80
+
+I am Leaf
+Level :3 Self ID : 50
+Neighbour incl self : 48 49 51 52 55 56 60 61 
+DALR : 53 54 57 58 59 62 63 8 9 10 11 12 13 14 15 
+
+28 34 29 23 30 33 29 21 18 22 28 21 22 32 29 
+Charge Index : [7764,7853]
+X : [-0.75,-0.5]
+Y : [0.25,0.5]
+N Particles : 90
+
+I am Leaf
+Level :3 Self ID : 51
+Neighbour incl self : 48 49 50 60 61 
+DALR : 52 53 54 55 56 57 58 59 62 63 8 9 10 11 12 13 14 15 
+
+30 21 22 33 31 20 18 24 31 33 19 17 18 23 22 21 29 35 
+Charge Index : [7854,8060]
+X : [-1,-0.75]
+Y : [0.25,0.5]
+N Particles : 207
+
+I am Leaf
+Level :3 Self ID : 52
+Neighbour incl self : 53 54 55 49 50 10 11 14 
+DALR : 48 51 56 57 58 59 60 61 62 63 8 9 12 13 15 28 29 30 31 32 33 34 35 44 45 46 47 
+
+34 31 31 27 22 22 24 27 21 18 33 29 24 29 29 22 17 20 27 32 22 22 27 23 17 17 19 
+Charge Index : [8061,8132]
+X : [-0.5,-0.25]
+Y : [0,0.25]
+N Particles : 72
+
+I am Leaf
+Level :3 Self ID : 53
+Neighbour incl self : 52 54 55 10 11 31 32 35 
+DALR : 48 49 50 51 56 57 58 59 60 61 62 63 8 9 12 13 14 15 28 29 30 33 34 44 45 46 47 
+
+21 30 28 20 27 31 21 21 18 22 19 17 29 32 18 23 27 20 28 24 27 32 29 29 23 18 20 
+Charge Index : [8133,8196]
+X : [-0.25,0]
+Y : [0,0.25]
+N Particles : 64
+
+I am Leaf
+Level :3 Self ID : 54
+Neighbour incl self : 52 53 55 56 57 32 35 44 
+DALR : 48 49 50 51 58 59 60 61 62 63 8 9 10 11 12 13 14 15 28 29 30 31 33 34 45 46 47 
+
+20 25 33 22 33 30 21 28 24 18 21 21 31 28 17 18 22 18 21 18 23 27 29 32 30 23 29 
+Charge Index : [8197,8268]
+X : [-0.25,0]
+Y : [0.25,0.5]
+N Particles : 72
+
+I am Leaf
+Level :3 Self ID : 55
+Neighbour incl self : 52 53 54 49 50 56 57 61 
+DALR : 48 51 58 59 60 62 63 8 9 10 11 12 13 14 15 28 29 30 31 32 33 34 35 44 45 46 47 
+
+29 33 29 34 31 30 24 22 21 29 33 19 21 29 24 18 17 18 22 29 21 21 34 28 21 18 24 
+Charge Index : [8269,8349]
+X : [-0.5,-0.25]
+Y : [0.25,0.5]
+N Particles : 81
+
+I am Leaf
+Level :3 Self ID : 56
+Neighbour incl self : 57 58 59 50 54 55 61 62 
+DALR : 48 49 51 52 53 60 63 32 33 34 35 44 45 46 47 
+
+22 28 29 30 28 34 30 23 18 22 29 33 21 21 29 
+Charge Index : [8350,8439]
+X : [-0.5,-0.25]
+Y : [0.5,0.75]
+N Particles : 90
+
+I am Leaf
+Level :3 Self ID : 57
+Neighbour incl self : 56 58 59 54 55 35 44 47 
+DALR : 48 49 50 51 52 53 60 61 62 63 32 33 34 45 46 
+
+18 21 27 20 27 32 22 31 27 21 28 24 29 31 29 
+Charge Index : [8440,8519]
+X : [-0.25,0]
+Y : [0.5,0.75]
+N Particles : 80
+
+I am Leaf
+Level :3 Self ID : 58
+Neighbour incl self : 56 57 59 44 47 
+DALR : 48 49 50 51 52 53 54 55 60 61 62 63 32 33 34 35 45 46 
+
+16 19 23 18 20 23 33 27 22 27 33 21 21 19 23 27 30 33 
+Charge Index : [8520,8703]
+X : [-0.25,0]
+Y : [0.75,1]
+N Particles : 184
+
+I am Leaf
+Level :3 Self ID : 59
+Neighbour incl self : 56 57 58 61 62 
+DALR : 48 49 50 51 52 53 54 55 60 63 32 33 34 35 44 45 46 47 
+
+18 19 31 24 22 20 29 35 26 34 18 17 19 24 28 22 22 35 
+Charge Index : [8704,8910]
+X : [-0.5,-0.25]
+Y : [0.75,1]
+N Particles : 207
+
+I am Leaf
+Level :3 Self ID : 60
+Neighbour incl self : 61 62 63 50 51 
+DALR : 48 49 52 53 54 55 56 57 58 59 
+
+33 28 23 19 22 30 35 22 20 30 
+Charge Index : [8911,9140]
+X : [-1,-0.75]
+Y : [0.5,0.75]
+N Particles : 230
+
+I am Leaf
+Level :3 Self ID : 61
+Neighbour incl self : 60 62 63 50 51 55 56 59 
+DALR : 48 49 52 53 54 57 58 
+
+26 31 27 23 28 31 28 
+Charge Index : [9141,9240]
+X : [-0.75,-0.5]
+Y : [0.5,0.75]
+N Particles : 100
+
+I am Leaf
+Level :3 Self ID : 62
+Neighbour incl self : 60 61 63 56 59 
+DALR : 48 49 50 51 52 53 54 55 57 58 
+
+21 20 32 31 21 17 22 30 29 34 
+Charge Index : [9241,9470]
+X : [-0.75,-0.5]
+Y : [0.75,1]
+N Particles : 230
+
+I am Leaf
+Level :3 Self ID : 63
+Neighbour incl self : 60 61 62 
+DALR : 48 49 50 51 52 53 54 55 56 57 58 59 
+
+22 21 31 35 18 17 18 24 30 20 22 34 
+Charge Index : [9471,9999]
+X : [-1,-0.75]
+Y : [0.75,1]
+N Particles : 529
+
+I am Leaf
+Deleted Data
